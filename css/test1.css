@@ -1,0 +1,125 @@
+#learn{
+    z-index: 6;
+    position: relative;
+    overflow: hidden;
+}
+#deep{
+    z-index: 5;
+    position: relative;
+    
+}
+#imagesection{
+    position: relative;
+}
+
+.section-one-sunset{    
+ text-align: center;
+   margin-bottom: -300px;
+    left: 40%;
+    width: 200px;   
+    position: relative;
+   top: 20px; 
+
+}
+.section-one-dashboard{
+    position: absolute;    
+    width: 100%;
+    height: 100%;
+    /* top: 70%; */
+    
+}
+.section-one-background{
+    position: absolute;
+    top: 10%;
+    left: 45%;
+    width: 50%;
+    z-index: 5;
+    
+}
+
+.section-two-card{
+    position: absolute;
+    top: 60%;
+    opacity: 0.4;
+}
+.section-two-graph{
+    position: absolute;
+    left: 40%;
+}
+.section-two-cantoon{
+    position: absolute;
+    left: 10%;
+}
+.section-two-whitesunset{
+    position: relative;
+    left: 15%;
+    top: -40%;
+}
+
+
+
+
+
+@media (max-width: 700px) {
+    .section-one-sunset{
+        top: 60%;
+        left: 30%;
+        width: 120px;
+        
+    }
+    .section-one-dashboard{
+        top: 2px;
+        text-align: center;
+    }
+    .section-one-background{
+        /* width: 220px; */
+        top: 5%; 
+        left: 15%;      
+       
+    }
+    .section-two-whitesunset {
+        width: 120px;
+        left:30%;
+        z-index: 4;
+      
+    }
+    .section-two-graph {
+        width: 150px;
+        left:50%;
+        top: 0px;
+        
+      
+    }
+
+    .section-two-card {
+      width: 180px;
+       opacity: 1;
+       left: 10%;
+       top: 60%;
+       z-index: 2;
+      
+    }
+    .section-two-cantoon {
+        width: 80px;
+         opacity: 1;
+         left: 20%;
+         top: -20%;
+         z-index: 1;
+        
+      }
+  
+
+}
+
+
+
+
+
+
+
+
+
+#learn{
+    background-color: rgb(153, 15, 15);
+    position: relative;
+}

@@ -1,0 +1,116 @@
+#deep{
+    z-index: 6;
+    overflow: hidden;
+}
+#learn{
+    z-index: 6;
+    overflow: hidden;
+}
+.section-one-sunset{
+    
+ text-align: center;
+   position: relative;
+  left: 15%;
+  top: 50%;
+  z-index: 2;
+}
+
+.section-two-whitesunset{
+    text-align: center;
+    position: relative;
+   left: 16%;
+   margin-top: -300;
+   z-index: 2;
+}
+
+
+.section-one-dashboard{
+    position: absolute;    
+    width: 100%;
+    height: 100%;
+    
+}
+.section-one-background{
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    
+}
+
+.section-two-card{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    
+}
+.section-two-graph{
+    position: absolute;
+    left: 20%;
+    top: 30%;
+    
+}
+.section-two-cantoon{
+    position: absolute;
+    left: 30%;
+    top: 20%;
+    
+   
+    
+}
+
+
+
+
+
+@media (max-width: 700px) {
+    .section-one-sunset{
+        top: 55%;
+        left: 40%; 
+        width: 100px;    
+        
+    }
+    .section-one-dashboard{
+        top: 2px;
+        text-align: center;
+    }
+    .section-one-background{    
+        top: 5%; 
+        left: 15%;     
+       
+    }
+    .section-two-whitesunset {
+        position: relative;
+        left:40%;
+        top: 50%;
+        width: 100px;
+        z-index: 4;
+            
+    }
+    .section-two-graph {
+        width: 150px;
+        left:50%;
+        top: 0%;
+        opacity: 1;
+        
+      
+    }
+    .section-two-card {
+      width: 180px;
+       opacity: 1;
+       left: 20%;
+       top: 65%;
+       z-index: 2;      
+    }
+    .section-two-cantoon {
+        width: 80px;
+         opacity: 1;
+         left: 15%;
+         top: 0%;
+         z-index: 2;  
+         
+        
+      }
+  
+
+}
+
