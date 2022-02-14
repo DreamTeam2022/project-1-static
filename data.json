@@ -1,0 +1,806 @@
+[
+    {
+        "category":"Metavers",
+        "title": "Decentraland",
+        "image": "nft-decentraland-preview.jpg"
+    },
+    {
+        "category": "Gaming",
+        "title":"KOGS",
+        "image":"public/jsonimage/nft-KOGs-preview_94075.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"SupDucks",
+        "image":"public/jsonimage/nft-supducks-preview.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"GOATz",
+        "image":"public/jsonimage/nft-goatz-preview_23250.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"Godzilla Topps NFT",
+        "image":"public/jsonimage/nft-toops-godzilla-preview.jpg"
+    },
+    {
+        "category": "Trading Cards",
+        "title":"Parallel",
+        "image":"public/jsonimage/nft-Parallel-preview.jpg"
+    },
+    {
+        "category": "Art",
+        "title":"Inertial Moment",
+        "image":"public/jsonimage/nft-Inertial-Moment-preview.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"APE DAO REMIX!",
+        "image":"public/jsonimage/nft-APE-DAO-preview.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"OxVampire Project",
+        "image":"public/jsonimage/nft-0xVampire-Project-preview.jpg"
+    },
+    {
+        "category": "Art",
+        "title":"Kokeshi Kuties",
+        "image":"public/jsonimage/nft-Kokeshi-Kuties-preview_36551.jpg"
+    },
+    {
+        "category": "Art",
+        "title":"Hive Mind",
+        "image":"public/jsonimage/nft-Hive-Mind-preview_28595.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"LlamaPaloozaNFT",
+        "image":"public/jsonimage/nft-LlamaPalooza-preview.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"CryptoKitties",
+        "image":"public/jsonimage/nft-cryptokitties-preview_27108.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"Avastars",
+        "image":"public/jsonimage/nft-avastar-preview_17527.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"The Wicked Craniums",
+        "image":"public/jsonimage/nft-the-wicked-craniums-preview.jpg"
+    },
+    {
+        "category": "Trading Cards",
+        "title":"Chenduz's LunaPark",
+        "image":"public/jsonimage/nft-Chenduz's-Luna-Park-preview.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"The Crypto Beast",
+        "image":"public/jsonimage/nft-CRYPTOBEASTS-preview.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"VOID Elementals",
+        "image":"public/jsonimage/nft-void-elementals-preview.jpg"
+    },
+    {
+        "category": "Metaverse",
+        "title":"The Sandbox",
+        "image":"public/jsonimage/nft-sandbox-preview.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"Pudgy Penguins",
+        "image":"public/jsonimage/nft-Pudgy-Penguins-preview.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"MadTrooper",
+        "image":"public/jsonimage/nft-MadTrooper-preview_31788.jpg"
+    },
+    {
+        "category": "Gaming",
+        "title":"Token Tanks",
+        "image":"public/jsonimage/nft-Token-Tanks-preview_10051.jpg"
+    },
+    {
+        "category": "Sport",
+        "title":"NBA Top Shot",
+        "image":"public/jsonimage/nft-nba-top-shot-preview.jpg"
+    },
+    {
+        "category": "Gaming",
+        "title":"Voxies",
+        "image":"public/jsonimage/nft-voxies-preview_515.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"Degenz",
+        "image":"public/jsonimage/nft-Degenz-preview.jpg"
+    },
+    {
+        "category": "Gaming",
+        "title":"Land Vault",
+        "image":"public/jsonimage/nft-LandVault-preview.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"Mad Cat Militia",
+        "image":"public/jsonimage/nft-mad-cat-militia-preview.jpg"
+    },
+    {
+        "category": "Marketplace",
+        "title":"Solanart",
+        "image":"public/jsonimage/nft-solanart-preview.jpg"
+    },
+    {
+        "category": "Metaverse",
+        "title":"Creature World NFT",
+        "image":"public/jsonimage/nft-Creature-World-preview.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"CrypToadz",
+        "image":"public/jsonimage/nft-CrypToadz-preview.jpg"
+    },
+    {
+        "category": "Marketplace",
+        "title":"Markers Place",
+        "image":"public/jsonimage/nft-makersplace-preview.jpg"
+    },
+    {
+        "category": "Trading Cards",
+        "title":"Dark Country",
+        "image":"public/jsonimage/nft-dark-country-preview.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"VeeFriends",
+        "image":"public/jsonimage/nft-veefriends-preview.jpg"
+    },
+    {
+        "category": "Gaming",
+        "title":"Ember Sword",
+        "image":"public/jsonimage/nft-ember-sword-preview_61220.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"Chubbies",
+        "image":"public/jsonimage/nft-chubbies-preview.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"Pixls",
+        "image":"public/jsonimage/nft-pixls-preview.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"Byo Pills",
+        "image":"public/jsonimage/nft-BYOPills-preview.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"Ether Cards Founder Series",
+        "image":"public/jsonimage/nft-Ether-Cards-Founder-Series-preview.jpg"
+    },
+    {
+        "category": "Art",
+        "title":"Art Blocks",
+        "image":"public/jsonimage/nft-artblocks-preview.jpg"
+    },
+    {
+        "category": "Utility",
+        "title":"The Metakey",
+        "image":"public/jsonimage/nft-the-metakey-preview.jpg"
+    },
+    {
+        "category": "Gaming",
+        "title":"MegaCryptoPolis",
+        "image":"public/jsonimage/nft-mega-crypto-polis-preview.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"Euler Beats",
+        "image":"public/jsonimage/nft-eulerbeats-preview_58269.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"Stoner Cats",
+        "image":"public/jsonimage/nft-stoner-cats-preview.jpg"
+    },
+{
+        "category": "Collectibles",
+        "title":"Deadhead",
+        "image":"public/jsonimage/nft-deadhead-preview.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"Monsters of Rap",
+        "image":"public/jsonimage/nft-monster-of-rap-preview.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"Robotech",
+        "image":"public/jsonimage/nft-Robotech-preview.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"Crazy Lizard Army",
+        "image":"public/jsonimage/nft-Crazy-Lizard-Army-preview"
+    },
+    {
+        "category": "Gaming",
+        "title":"Brave Frontier Heroes",
+        "image":"public/jsonimage/nft-Brave-Frontier-Heroes-preview.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"The Sevens (Official)",
+        "image":"public/jsonimage/nft-The-Sevens-preview.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"The CryptoDads",
+        "image":"public/jsonimage/nft-CryptoDads-preview_1033.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"Axolittles",
+        "image":"public/jsonimage/nft-Axolittles-preview.jpg"
+    },
+    {
+        "category": "Art",
+        "title":"Crazy Cousinz",
+        "image":"public/jsonimage/nft-Crazy-Cousinz-preview.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"Trauma Llamas",
+        "image":"public/jsonimage/nft-Trauma-Llamas-preview.jpg"
+    },
+    {
+        "category": "Marketplace",
+        "title":"Rarible",
+        "image":"public/jsonimage/nft-rarible-preview.jpg"
+    },
+    {
+        "category": "Gaming",
+        "title":"Axie Infinity",
+        "image":"public/jsonimage/nft-axie-infinity-preview.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"Mutant Garden Seeder",
+        "image":"public/jsonimage/nft-mutant-garden-seeder-preview.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"AtariNFT",
+        "image":"public/jsonimage/nft-atari-preview.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"My Fucking Pickle",
+        "image":"public/jsonimage/nft-My-Fucking-Pickle-preview.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"Divine Order of the Zodiac",
+        "image":"public/jsonimage/nft-Divine-Order-of-the-Zodiac-preview.jpg"
+    },
+    {
+        "category": "Trading Cards",
+        "title":"Tribal Books",
+        "image":"public/jsonimage/nft-tribal-books-preview.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"Sneaky Vampire Syndicate",
+        "image":"public/jsonimage/nft-Sneaky-Vampire-Syndicate-preview.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"LOSTPOETS",
+        "image":"public/jsonimage/nft-LOSTPOETS-preview_78002.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"Robotos",
+        "image":"public/jsonimage/nft-Robotos-preview_95180.jpg"
+    },
+    {
+        "category": "Trading Cards",
+        "title":"GO!Bots By Health Hero",
+        "image":"public/jsonimage/nft-Go!Bots-By-Health Hero-preview.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"Golden Granny",
+        "image":"public/jsonimage/nft-Golden-Granny-preview.jpg"
+    },
+    {
+        "category": "Trading Cards",
+        "title":"Gods Unchained",
+        "image":"public/jsonimage/nft-gods-unchained-preview_14638.jpg"
+    },
+    {
+        "category": "Metaverse",
+        "title":"Somnium Space",
+        "image":"public/jsonimage/nft-somnium-space-preview.jpg"
+    },
+    {
+        "category": "Sport",
+        "title":"Sorare",
+        "image":"public/jsonimage/nft-sorare-preview.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"Aavegotchi",
+        "image":"public/jsonimage/nft-aavegotchi-preview_27153.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"VoxoDeus",
+        "image":"public/jsonimage/nft-voxo-deus-preview.jpg"
+    },
+    {
+        "category": "Gaming",
+        "title":"MyCryptoHeroes",
+        "image":"public/jsonimage/nft-my-crypto-heroes-preview.jpg"
+    },
+    {
+        "category": "Trading Cards",
+        "title":"Blockchain Heroes",
+        "image":"public/jsonimage/nft-Blockchain-Heroes-preview.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"Yoshi Drops",
+        "image":"public/jsonimage/nft-Yoshi-drops-preview.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"GEVOLs",
+        "image":"public/jsonimage/nft-GEVOLs-preview.jpg"
+    },
+    {
+        "category": "Gaming",
+        "title":"Aurory",
+        "image":"public/jsonimage/nft-Aurory-preview.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"None-Fungible Heroes",
+        "image":"public/jsonimage/nft-NonFungibleHeroes-preview.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"SolpixelRocks",
+        "image":"public/jsonimage/nft-SolPixelRocks-preview.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"NobleDogeLife",
+        "image":"public/jsonimage/nft-NobleDogeLife-preview.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"The Rapscallions",
+        "image":"public/jsonimage/nft-The-Rapscallions-preview.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"BitcoinOrigins",
+        "image":"public/jsonimage/nft-bitcoin-origins-preview_28750.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"Bulls On The Block",
+        "image":"public/jsonimage/nft-bulls-on-the-block-preview.jpg"
+    },
+    {
+        "category": "Art",
+        "title":"NftBoxes",
+        "image":"public/jsonimage/nft-Nftboxes-preview.jpg"
+    },
+    {
+        "category": "Marketplace",
+        "title":"SuperRare",
+        "image":"public/jsonimage/nft-superrare-preview.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"Bored Ape Yacht Club",
+        "image":"public/jsonimage/nft-bored-ape-yacht-club-preview.jpg"
+    },
+    {
+        "category": "Trading Cards",
+        "title":"Street Fighter",
+        "image":"public/jsonimage/nft-street-fighter-preview_77384.jpg"
+    },
+    {
+        "category": "Art",
+        "title":"Kalamint",
+        "image":"public/jsonimage/nft-kalamint-preview.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"Pixelglyphs",
+        "image":"public/jsonimage/nft-Pixelglyphs-preview.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"Weird Whales",
+        "image":"public/jsonimage/nft-Weird-Whales-preview.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"Boring Bananas Co",
+        "image":"public/jsonimage/nft-Boring-Bananas-Co-preview.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"PEACEFUL GROUPIES",
+        "image":"public/jsonimage/nft-PEACEVOID-preview.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"The Eights",
+        "image":"public/jsonimage/nft-The-Eights-preview.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"Meebits",
+        "image":"public/jsonimage/nft-meebits-preview.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"PUNKS Comic",
+        "image":"public/jsonimage/nft-punks-comics-preview_73258.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"WORLD OF WOMEN",
+        "image":"public/jsonimage/nft-world-of-women-preview.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"Royal Society of Players",
+        "image":"public/jsonimage/nft-royal-society-of-players-preview.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"Fame Lady Squad",
+        "image":"public/jsonimage/nft-fam-lady-squad-preview_83648.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"Super Yeti",
+        "image":"public/jsonimage/nft-SuperYeti-preview.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"Cartombs",
+        "image":"public/jsonimage/nft-cartombs-preview.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"Mutant Ape Yacht Club",
+        "image":"public/jsonimage/nft-Mutant-Ape-Yacht-Club-preview.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"Cool Cats NFT",
+        "image":"public/jsonimage/nft-cool-cats-preview.jpg"
+    },
+    {
+        "category": "Art",
+        "title":"Infinites Al",
+        "image":"public/jsonimage/nft-Infinites-AI-preview.jpg"
+    },
+    {
+        "category": "Gaming",
+        "title":"Zed Run",
+        "image":"public/jsonimage/nft-zed-run-preview.jpg"
+    },
+    {
+        "category": "Metaverse",
+        "title":"Upland",
+        "image":"public/jsonimage/nft-upland-preview_81654.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"Garbage Pail Kids",
+        "image":"public/jsonimage/nft-garbage-pail-kids-preview.jpg"
+    },
+    {
+        "category": "Marketplace",
+        "title":"OpenSea",
+        "image":"public/jsonimage/nft-opensea-preview.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"ON1 Force",
+        "image":"public/jsonimage/nft-0N1-Force-preview_79742.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"BlankFace",
+        "image":"public/jsonimage/nft-BlankFace-preview_58721.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"Omnimorphs",
+        "image":"public/jsonimage/nft-Omnimorphs-preview.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"Banana Solana",
+        "image":"public/jsonimage/nft-Banana-Solana-preview.jpg"
+    },
+    {
+        "category": "Art",
+        "title":"10KTF",
+        "image":"public/jsonimage/nft-10KTF-preview.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"The Gods",
+        "image":"public/jsonimage/nft-The-Gods-preview.jpg"
+    },
+    {
+        "category": "Metaverse",
+        "title":"Cryptovoxels Parcel",
+        "image":"public/jsonimage/nft-cryptovoxels-parcels-preview_26275.jpg"
+    },
+    {
+        "category": "Gaming",
+        "title":"Cometh Spaceships",
+        "image":"public/jsonimage/nft-cometh-spaceships-preview.jpg"
+    },
+    {
+        "category": "Gaming",
+        "title":"Alien Worlds",
+        "image":"public/jsonimage/nft-alien-worlds-preview.jpg"
+    },
+    {
+        "category": "Art",
+        "title":"Deafbeef",
+        "image":"public/jsonimage/nft-deafbeef-preview.jpg"
+    },
+    {
+        "category": "Art",
+        "title":"Curio Cards",
+        "image":"public/jsonimage/nft-curio-cards-preview.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"Animetas",
+        "image":"public/jsonimage/nft-Animetas-preview"
+    },
+    {
+        "category": "Gaming",
+        "title":"The Uplift World",
+        "image":"public/jsonimage/nft-Uplift-world-preview_82313.jpg"
+    },
+    {
+        "category": "Gaming",
+        "title":"MLB Champions",
+        "image":"public/jsonimage/nft-mlb-champions-preview.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"Wrapped Cryptocats",
+        "image":"public/jsonimage/nft-Wrapped-Cryptocats-preview.jpg"
+    },
+    {
+        "category": "Trading Cards",
+        "title":"Mutant Warriors",
+        "image":"public/jsonimage/nft-mutant-warriors-preview.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"Autoglyphs",
+        "image":"public/jsonimage/nft-autoglyphs-preview.jpg"
+    },
+    {
+        "category": "Trading Cards",
+        "title":"Splinterlands",
+        "image":"public/jsonimage/nft-splinterlands-preview_3764.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"Forgotten Runes Wizard's Cult",
+        "image":"public/jsonimage/nft-forgotten-runes-wizards-cult-preview.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"HodlGod",
+        "image":"public/jsonimage/nft-HodlGod-preview_62927.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"Janky Heist",
+        "image":"public/jsonimage/nft-the-janky-heist-preview.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"Blitmap",
+        "image":"public/jsonimage/nft-Blitmap-preview.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"Sewer Rat Social Club",
+        "image":"public/jsonimage/nft-sewer-rat-social-club-preview.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"Degenerate Ape Academy",
+        "image":"public/jsonimage/nft-Degenerate-Ape-Academy-preview.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"Quadrums",
+        "image":"public/jsonimage/nft-Quadrums-preview.jpg"
+    },
+    {
+        "category": "Gaming",
+        "title":"Frontier Game",
+        "image":"public/jsonimage/nft-Frontier-preview"
+    },
+    {
+        "category": "Marketplace",
+        "title":"Foundation.app",
+        "image":"public/jsonimage/nft-foundation-preview_55889.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"Hall Of Fame Goat Lodge",
+        "image":"public/jsonimage/nft-Hall-Of-Fame-Goat-Lodge-preview.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"Loot",
+        "image":"public/jsonimage/nft-Loot-preview.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"cyperKongz",
+        "image":"public/jsonimage/nft-CyberKongz-preview.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"Dapper Dinos NFT",
+        "image":"public/jsonimage/nft-Dapper-Dinos-preview.jpg"
+    },
+    {
+        "category": "Utility",
+        "title":"Emblem Vault",
+        "image":"public/jsonimage/nft-Emblem-Vault-preview.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"CryptoPunks",
+        "image":"public/jsonimage/nft-cryptopunks-preview.jpg"
+    },
+    {
+        "category": "Sport",
+        "title":"F1 Delta Time",
+        "image":"public/jsonimage/nft-f1-deltatime-preview.jpg"
+    },
+    {
+        "category": "Gaming",
+        "title":"R-PLANET",
+        "image":"public/jsonimage/nft-R-planet-preview_52473.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"The Vogu Collective",
+        "image":"public/jsonimage/nft-the-vogu-collective-preview.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"Top Dog Beach Club",
+        "image":"public/jsonimage/nft-top-dog-beach-club-preview.jpg"
+    },
+    {
+        "category": "Trading Cards",
+        "title":"Weezer NFT",
+        "image":"public/jsonimage/nft-weezer-preview.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"Clayings",
+        "image":"public/jsonimage/nft-Claylings-preview.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"Crypto Hobos",
+        "image":"public/jsonimage/nft-Crypto-Hobos-preview.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"Topps MLB",
+        "image":"public/jsonimage/nft-topps-mlb-preview.jpg"
+    },
+    {
+        "category": "Utility",
+        "title":"ApeSwap",
+        "image":"public/jsonimage/nft-apeswap-preview_45313.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"Artvatars",
+        "image":"public/jsonimage/nft-artvatars-preview.jpg"
+    },
+    {
+        "category": "Trading Cards",
+        "title":"Bitverse Comics",
+        "image":"public/jsonimage/nft-Bitverse-Comics-preview.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"Lazy Lions",
+        "image":"public/jsonimage/fPGpt454_400x400.jpg"
+    },
+    {
+        "category": "Art",
+        "title":"DIMEZ NFT",
+        "image":"public/jsonimage/nft-dimez-preview.jpg"
+    },
+    {
+        "category": "Artists",
+        "title":"eBoy",
+        "image":"public/jsonimage/z3DhhLmv_400x400.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"The Superstar Fam",
+        "image":"public/jsonimage/nft-The-Superstar-Fam-preview.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"169 Pixel Gang",
+        "image":"public/jsonimage/nft-169-Pixel-Gang-preview.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"STONKS Bears",
+        "image":"public/jsonimage/gQeVV9mN_400x400.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"Toxic Lake Monster Club",
+        "image":"public/jsonimage/nft-Toxic-Lake-Monster-Club-preview.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"Secret Scroll Society",
+        "image":"public/jsonimage/FAUGDgXXEAQy6ls (1).jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"Tropical Turtles",
+        "image":"public/jsonimage/nft-tropical-turtles-preview.jpg"
+    },
+    {
+        "category": "Collectibles",
+        "title":"Infinity Frogs",
+        "image":"public/jsonimage/nft-Infinity-Frogs-preview.jpg"
+    },
+    {
+        "category": "Gaming",
+        "title":"Stylish Studs",
+        "image":"public/jsonimage/AtfShzGQ_400x400.jpg"
+    }
+
+
+
+  
+]

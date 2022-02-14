@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="js/tailwind.config.js"></script>
+    <link rel="stylesheet" href="css/deep.css">
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.11/lodash.min.js"></script>
+    <script src="https://unpkg.com/animejs@3.0.1/lib/anime.min.js"></script>
+    <script src="https://unpkg.com/animejs-player@1.0.8/index.bundle.js"></script>
+    <script src="https://unpkg.com/@mui/material@latest/umd/material-ui.development.js"></script>
+    <!-- HEADER -->
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+
+    <!-- font awesome links -->
+    <!-- font awesome -->
+    <link href="fontawesome6/css/fontawesome.css" rel="stylesheet">
+    <link href="fontawesome6/css/brands.css" rel="stylesheet">
+    <link href="fontawesome6/css/solid.css" rel="stylesheet">
+
+
+    <title> NFT Project</title>
+</head>
+
+<body>
+    <header>
+        <div class="w-full text-zinc-400 bg-black border-b-2 border-gray-800 fixed z-50">
+            <div x-data="{ open: false }"
+                class="flex flex-col max-w-screen-xl px-4 mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-8">
+                <div class="p-4 flex flex-row items-center justify-between">
+                    <a href="#"
+                        class="text-lg font-semibold tracking-widest text-gray-200 uppercase rounded-lg  focus:outline-none focus:shadow-outline">Project-1</a>
+                    <button class="md:hidden rounded-lg focus:outline-none focus:shadow-outline" @click="open = !open">
+                        <svg fill="currentColor" viewBox="0 0 20 20" class="w-6 h-6">
+                            <path x-show="!open" fill-rule="evenodd"
+                                d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z"
+                                clip-rule="evenodd"></path>
+                            <path x-show="open" fill-rule="evenodd"
+                                d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                                clip-rule="evenodd"></path>
+                        </svg>
+                    </button>
+
+                </div>
+                <nav :class="{'flex': open, 'hidden': !open}"
+                    class="flex-col flex-grow pb-4 md:pb-0 hidden md:flex  md:flex-row">
+                    <a class="px-4 py-2 mt-2 text-sm font-semibold text-gray-600     dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 hover:text-gray-900 focus:text-gray-900 focus:outline-none focus:shadow-outline"
+                        href="#deep">How it Works</a>
+                    <a class="px-4 py-2 mt-2 text-sm font-semibold  dark-mode:focus:text-white   md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900  focus:outline-none focus:shadow-outline"
+                        href="/nftproject.html"><i class="fa-light fa-folder"></i> NFT Project</a>
+                    <a class="px-4 py-2 mt-2 text-sm font-semibold  dark-mode:focus:text-white   md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900  focus:outline-none focus:shadow-outline"
+                        href="#smartfeed">Smart Feed</a>
+                    <a class="px-4 py-2 mt-2 text-sm font-semibold  dark-mode:focus:text-white   md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900  focus:outline-none focus:shadow-outline"
+                        href="#">Discover project</a>
+                </nav>
+                <button class="bg-blue-200 px-4 py-2">
+                    Get Started
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <div class="w-full bg-black">
+        <div class="xl:w-8/12 lg:w-11/12 w-11/12  mx-auto  h-full relative bg-black pt-16">
+            <div class=" h-10   w-full">
+                <div class=" relative  w-full border-b border-gray-700">
+                    <input class=" py-2 bg-black text-white w-full text-sm    pl-10 py-2" type="text"
+                        placeholder="Search" />
+                </div>
+            </div>
+            <dh-component class=" ">
+                <div class="flex flex-no-wrap border-t border-gray-700">
+                    <!-- Sidebar starts -->
+                    <!-- Remove class [ hidden ] and replace [ sm:flex ] with [ flex ] -->
+                    <!--- more free and premium Tailwind CSS components at https://tailwinduikit.com/ --->
+                    <div style="min-height: 716px"
+                        class="border-r border-gray-700 w-3/12  text-white  md:shadow md:h-full flex-col justify-between hidden sm:block sm:flex">
+                        <div class=" bg-black">
+                            <div class="h-16 w-full  flex items-center border-b border-gray-700">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="ml-4 icon icon-tabler icon-tabler-stack"
+                                    width="18" height="18" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                    fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" />
+                                    <polyline points="12 4 4 8 12 12 20 8 12 4" />
+                                    <polyline points="4 12 12 16 20 12" />
+                                    <polyline points="4 16 12 20 20 16" />
+                                </svg>
+                                <span class="text-sm ml-4">Category</span>
+                            </div>
+                            <ul class="mt-4 pl-10">
+                                <li
+                                    class="flex w-full justify-between text-gray-400 hover:text-gray-300 cursor-pointer items-center mb-6">
+                                    <a href="javascript:void(0)"
+                                        class="flex items-center focus:outline-none focus:ring-2 focus:ring-white">
+                                        <input type="checkbox" class="default:ring-2 ..." />
+                                        <span class="text-sm ml-2">gaming</span>
+                                    </a>
+                                </li>
+
+                                <li
+                                    class="flex w-full justify-between text-gray-400 hover:text-gray-300 cursor-pointer items-center mb-6">
+                                    <a href="javascript:void(0)"
+                                        class="flex items-center focus:outline-none focus:ring-2 focus:ring-white">
+                                        <input type="checkbox" class="default:ring-2 ..." />
+                                        <span class="text-sm ml-2">Chain</span>
+                                    </a>
+                                </li>
+                                <li
+                                    class="flex w-full justify-between text-gray-400 hover:text-gray-300 cursor-pointer items-center mb-6">
+                                    <a href="javascript:void(0)"
+                                        class="flex items-center focus:outline-none focus:ring-2 focus:ring-white">
+                                        <input type="checkbox" class="default:ring-2 ..." />
+                                        <span class="text-sm ml-2">Chain</span>
+                                    </a>
+                                </li>
+                                <li
+                                    class="flex w-full justify-between text-gray-400 hover:text-gray-300 cursor-pointer items-center mb-6">
+                                    <a href="javascript:void(0)"
+                                        class="flex items-center focus:outline-none focus:ring-2 focus:ring-white">
+                                        <input type="checkbox" class="default:ring-2 ..." />
+                                        <span class="text-sm ml-2">Chain</span>
+                                    </a>
+                                </li>
+                            </ul>
+
+                            <div class="h-16 w-full  flex items-center border-b border-t border-gray-700">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="ml-4 icon icon-tabler icon-tabler-compass"
+                                    width="18" height="18" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                    fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z"></path>
+                                    <polyline points="8 16 10 10 16 8 14 14 8 16"></polyline>
+                                    <circle cx="12" cy="12" r="9"></circle>
+                                </svg>
+                                <span class="text-sm ml-4">Chain</span>
+                            </div>
+                            <ul class="mt-4 pl-10">
+                                <li
+                                    class="flex w-full justify-between text-gray-400 hover:text-gray-300 cursor-pointer items-center mb-6">
+                                    <a href="javascript:void(0)"
+                                        class="flex items-center focus:outline-none focus:ring-2 focus:ring-white">
+                                        <input type="checkbox" class="default:ring-2 ..." />
+                                        <span class="text-sm ml-2">gaming</span>
+                                    </a>
+                                </li>
+
+                                <li
+                                    class="flex w-full justify-between text-gray-400 hover:text-gray-300 cursor-pointer items-center mb-6">
+                                    <a href="javascript:void(0)"
+                                        class="flex items-center focus:outline-none focus:ring-2 focus:ring-white">
+                                        <input type="checkbox" class="default:ring-2 ..." />
+                                        <span class="text-sm ml-2">Chain</span>
+                                    </a>
+                                </li>
+                                <li
+                                    class="flex w-full justify-between text-gray-400 hover:text-gray-300 cursor-pointer items-center mb-6">
+                                    <a href="javascript:void(0)"
+                                        class="flex items-center focus:outline-none focus:ring-2 focus:ring-white">
+                                        <input type="checkbox" class="default:ring-2 ..." />
+                                        <span class="text-sm ml-2">Chain</span>
+                                    </a>
+                                </li>
+                                <li
+                                    class="flex w-full justify-between text-gray-400 hover:text-gray-300 cursor-pointer items-center mb-6">
+                                    <a href="javascript:void(0)"
+                                        class="flex items-center focus:outline-none focus:ring-2 focus:ring-white">
+                                        <input type="checkbox" class="default:ring-2 ..." />
+                                        <span class="text-sm ml-2">Chain</span>
+                                    </a>
+                                </li>
+                                <li
+                                    class="flex w-full justify-between text-gray-400 hover:text-gray-300 cursor-pointer items-center mb-6">
+                                    <a href="javascript:void(0)"
+                                        class="flex items-center focus:outline-none focus:ring-2 focus:ring-white">
+                                        <input type="checkbox" class="default:ring-2 ..." />
+                                        <span class="text-sm ml-2">Chain</span>
+                                    </a>
+                                </li>
+                            </ul>
+
+                        </div>
+
+                    </div>
+                    <!-- ffffffffffff -->
+                    <div class="bg-black w-64 z-40 fixed shadow md:h-full flex-col justify-between sm:hidden transition duration-150 ease-in-out"
+                        id="mobile-nav">
+                        <button aria-label="toggle sidebar" id="openSideBar"
+                            class="h-10 w-10 bg-gray-800 absolute right-0 mt-20 -mr-10 flex items-center shadow rounded-tr rounded-br justify-center cursor-pointer focus:outline-none focus:ring-2 focus:ring-offset-2 rounded focus:ring-gray-800"
+                            onclick="sidebarHandler(true)">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-adjustments"
+                                width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#FFFFFF" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" />
+                                <circle cx="6" cy="10" r="2" />
+                                <line x1="6" y1="4" x2="6" y2="8" />
+                                <line x1="6" y1="12" x2="6" y2="20" />
+                                <circle cx="12" cy="16" r="2" />
+                                <line x1="12" y1="4" x2="12" y2="14" />
+                                <line x1="12" y1="18" x2="12" y2="20" />
+                                <circle cx="18" cy="7" r="2" />
+                                <line x1="18" y1="4" x2="18" y2="5" />
+                                <line x1="18" y1="9" x2="18" y2="20" />
+                            </svg>
+                        </button>
+                        <button aria-label="Close sidebar" id="closeSideBar"
+                            class="hidden h-10 w-10 bg-gray-800 absolute right-0 mt-16 -mr-10 flex items-center shadow rounded-tr rounded-br justify-center cursor-pointer text-white"
+                            onclick="sidebarHandler(false)">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-x" width="20"
+                                height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" />
+                                <line x1="18" y1="6" x2="6" y2="18" />
+                                <line x1="6" y1="6" x2="18" y2="18" />
+                            </svg>
+                        </button>
+                        <div class="border-r border-gray-700 background-black">
+                            <div class="h-16 w-full text-white flex items-center border-b border-gray-700">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="ml-4 icon icon-tabler icon-tabler-stack"
+                                    width="18" height="18" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                    fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" />
+                                    <polyline points="12 4 4 8 12 12 20 8 12 4" />
+                                    <polyline points="4 12 12 16 20 12" />
+                                    <polyline points="4 16 12 20 20 16" />
+                                </svg>
+                                <span class="text-sm ml-4">Category</span>
+                            </div>
+                            <ul class="mt-4 pl-10">
+                                <li
+                                    class="flex w-full justify-between text-gray-400 hover:text-gray-300 cursor-pointer items-center mb-6">
+                                    <a href="javascript:void(0)"
+                                        class="flex items-center focus:outline-none focus:ring-2 focus:ring-white">
+                                        <input type="checkbox" class="default:ring-2 ..." />
+                                        <span class="text-sm ml-2">gaming</span>
+                                    </a>
+                                </li>
+
+                                <li
+                                    class="flex w-full justify-between text-gray-400 hover:text-gray-300 cursor-pointer items-center mb-6">
+                                    <a href="javascript:void(0)"
+                                        class="flex items-center focus:outline-none focus:ring-2 focus:ring-white">
+                                        <input type="checkbox" class="default:ring-2 ..." />
+                                        <span class="text-sm ml-2">Chain</span>
+                                    </a>
+                                </li>
+                                <li
+                                    class="flex w-full justify-between text-gray-400 hover:text-gray-300 cursor-pointer items-center mb-6">
+                                    <a href="javascript:void(0)"
+                                        class="flex items-center focus:outline-none focus:ring-2 focus:ring-white">
+                                        <input type="checkbox" class="default:ring-2 ..." />
+                                        <span class="text-sm ml-2">Chain</span>
+                                    </a>
+                                </li>
+                                <li
+                                    class="flex w-full justify-between text-gray-400 hover:text-gray-300 cursor-pointer items-center mb-6">
+                                    <a href="javascript:void(0)"
+                                        class="flex items-center focus:outline-none focus:ring-2 focus:ring-white">
+                                        <input type="checkbox" class="default:ring-2 ..." />
+                                        <span class="text-sm ml-2">Chain</span>
+                                    </a>
+                                </li>
+
+                            </ul>
+                            <div class="h-16 w-full  flex items-center border-b border-t border-gray-700">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="ml-4 icon icon-tabler icon-tabler-compass"
+                                    width="18" height="18" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                    fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z"></path>
+                                    <polyline points="8 16 10 10 16 8 14 14 8 16"></polyline>
+                                    <circle cx="12" cy="12" r="9"></circle>
+                                </svg>
+                                <span class="text-sm ml-4">Chain</span>
+                            </div>
+                            <ul class="mt-4 pl-10">
+                                <li
+                                    class="flex w-full justify-between text-gray-400 hover:text-gray-300 cursor-pointer items-center mb-6">
+                                    <a href="javascript:void(0)"
+                                        class="flex items-center focus:outline-none focus:ring-2 focus:ring-white">
+                                        <input type="checkbox" class="default:ring-2 ..." />
+                                        <span class="text-sm ml-2">gaming</span>
+                                    </a>
+                                </li>
+
+                                <li
+                                    class="flex w-full justify-between text-gray-400 hover:text-gray-300 cursor-pointer items-center mb-6">
+                                    <a href="javascript:void(0)"
+                                        class="flex items-center focus:outline-none focus:ring-2 focus:ring-white">
+                                        <input type="checkbox" class="default:ring-2 ..." />
+                                        <span class="text-sm ml-2">Chain</span>
+                                    </a>
+                                </li>
+                                <li
+                                    class="flex w-full justify-between text-gray-400 hover:text-gray-300 cursor-pointer items-center mb-6">
+                                    <a href="javascript:void(0)"
+                                        class="flex items-center focus:outline-none focus:ring-2 focus:ring-white">
+                                        <input type="checkbox" class="default:ring-2 ..." />
+                                        <span class="text-sm ml-2">Chain</span>
+                                    </a>
+                                </li>
+                                <li
+                                    class="flex w-full justify-between text-gray-400 hover:text-gray-300 cursor-pointer items-center mb-6">
+                                    <a href="javascript:void(0)"
+                                        class="flex items-center focus:outline-none focus:ring-2 focus:ring-white">
+                                        <input type="checkbox" class="default:ring-2 ..." />
+                                        <span class="text-sm ml-2">Chain</span>
+                                    </a>
+                                </li>
+                                <li
+                                    class="flex w-full justify-between text-gray-400 hover:text-gray-300 cursor-pointer items-center mb-6">
+                                    <a href="javascript:void(0)"
+                                        class="flex items-center focus:outline-none focus:ring-2 focus:ring-white">
+                                        <input type="checkbox" class="default:ring-2 ..." />
+                                        <span class="text-sm ml-2">Chain</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <!-- Sidebar ends -->
+                    <!-- Remove class [ h-64 ] when adding a card block -->
+                    <div class="ml-auto  sm:w-9/12 w-full flex  overflow-hidden">
+
+                        <div class='bg-black flex-1  text-2xl  text-white '>
+                            <div class='flex flex-wrap lg:w-12/12 md:w-12/12 sm:w-12/12'>
+
+                                <div key={nft.title}
+                                    class="xl:w-3/12 lg:w-4/12 md:w-4/12 sm:w-6/12 w-full px-3 py-2 font-paragraph ">
+                                    <div class="flex flex-wrap bg-neutral-900 rounded-lg  w-full h-full">
+                                        <img alt={nft.title} src='public/jsonimage/nft-Banana-Solana-preview.jpg'
+                                            class="rounded-lg" />
+                                        <div class="overlay">
+                                            <div class="portfolio-item-meta p-2 items-center justify-center  ">
+                                                <h5 class='text-gray-400 text-sm'>Metaverse</h5>
+                                                <p class='text-gray-200 text-sm'>Decentraland</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div key={nft.title}
+                                    class="xl:w-3/12 lg:w-4/12 md:w-4/12 sm:w-6/12 w-full px-3 py-2 font-paragraph ">
+                                    <div class="flex flex-wrap bg-neutral-900 rounded-lg  w-full h-full">
+                                        <img alt={nft.title} src='public/jsonimage/nft-Crypto-Hobos-preview.jpg'
+                                            class="rounded-lg" />
+                                        <div class="overlay">
+                                            <div class="portfolio-item-meta p-2 items-center justify-center  ">
+                                                <h5 class='text-gray-400 text-sm'>Gaming</h5>
+                                                <p class='text-gray-200 text-sm'>KOGS</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div key={nft.title}
+                                    class="xl:w-3/12 lg:w-4/12 md:w-4/12 sm:w-6/12 w-full px-3 py-2 font-paragraph ">
+                                    <div class="flex flex-wrap bg-neutral-900 rounded-lg  w-full h-full">
+                                        <img alt={nft.title} src='public/jsonimage/nft-Infinites-AI-preview.jpg'
+                                            class="rounded-lg" />
+                                        <div class="overlay">
+                                            <div class="portfolio-item-meta p-2 items-center justify-center  ">
+                                                <h5 class='text-gray-400 text-sm'>Collectibles</h5>
+                                                <p class='text-gray-200 text-sm'>SupDucks</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div key={nft.title}
+                                    class="xl:w-3/12 lg:w-4/12 md:w-4/12 sm:w-6/12 w-full px-3 py-2 font-paragraph ">
+                                    <div class="flex flex-wrap bg-neutral-900 rounded-lg  w-full h-full">
+                                        <img alt={nft.title} src='public/jsonimage/nft-bulls-on-the-block-preview.jpg'
+                                            class="rounded-lg" />
+                                        <div class="overlay">
+                                            <div class="portfolio-item-meta p-2 items-center justify-center  ">
+                                                <h5 class='text-gray-400 text-sm'>Collectibles</h5>
+                                                <p class='text-gray-200 text-sm'>GOATz</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div key={nft.title}
+                                    class="xl:w-3/12 lg:w-4/12 md:w-4/12 sm:w-6/12 w-full px-3 py-2 font-paragraph ">
+                                    <div class="flex flex-wrap bg-neutral-900 rounded-lg  w-full h-full">
+                                        <img alt={nft.title} src='public/jsonimage/nft-garbage-pail-kids-preview.jpg'
+                                            class="rounded-lg" />
+                                        <div class="overlay">
+                                            <div class="portfolio-item-meta p-2 items-center justify-center  ">
+                                                <h5 class='text-gray-400 text-sm'>Collectibles</h5>
+                                                <p class='text-gray-200 text-sm'>Godzilla Topps NFT</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div key={nft.title}
+                                    class="xl:w-3/12 lg:w-4/12 md:w-4/12 sm:w-6/12 w-full px-3 py-2 font-paragraph ">
+                                    <div class="flex flex-wrap bg-neutral-900 rounded-lg  w-full h-full">
+                                        <img alt={nft.title} src='public/jsonimage/nft-Degenz-preview.jpg'
+                                            class="rounded-lg" />
+                                        <div class="overlay">
+                                            <div class="portfolio-item-meta p-2 items-center justify-center  ">
+                                                <h5 class='text-gray-400 text-sm'>Trading Card</h5>
+                                                <p class='text-gray-200 text-sm'>Parallel</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div key={nft.title}
+                                    class="xl:w-3/12 lg:w-4/12 md:w-4/12 sm:w-6/12 w-full px-3 py-2 font-paragraph ">
+                                    <div class="flex flex-wrap bg-neutral-900 rounded-lg  w-full h-full">
+                                        <img alt={nft.title} src='public/jsonimage/nft-solanart-preview.jpg'
+                                            class="rounded-lg" />
+                                        <div class="overlay">
+                                            <div class="portfolio-item-meta p-2 items-center justify-center  ">
+                                                <h5 class='text-gray-400 text-sm'>Art</h5>
+                                                <p class='text-gray-200 text-sm'>Inertial Moment</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div key={nft.title}
+                                    class="xl:w-3/12 lg:w-4/12 md:w-4/12 sm:w-6/12 w-full px-3 py-2 font-paragraph ">
+                                    <div class="flex flex-wrap bg-neutral-900 rounded-lg  w-full h-full">
+                                        <img alt={nft.title} src='public/jsonimage/nft-NonFungibleHeroes-preview.jpg'
+                                            class="rounded-lg" />
+                                        <div class="overlay">
+                                            <div class="portfolio-item-meta p-2 items-center justify-center  ">
+                                                <h5 class='text-gray-400 text-sm'>Collectibles</h5>
+                                                <p class='text-gray-200 text-sm'>APE DAO REMIX</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div key={nft.title}
+                                    class="xl:w-3/12 lg:w-4/12 md:w-4/12 sm:w-6/12 w-full px-3 py-2 font-paragraph ">
+                                    <div class="flex flex-wrap bg-neutral-900 rounded-lg  w-full h-full">
+                                        <img alt={nft.title} src='public/jsonimage/nft-Banana-Solana-preview.jpg'
+                                            class="rounded-lg" />
+                                        <div class="overlay">
+                                            <div class="portfolio-item-meta p-2 items-center justify-center  ">
+                                                <h5 class='text-gray-400 text-sm'>Metaverse</h5>
+                                                <p class='text-gray-200 text-sm'>Decentraland</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div key={nft.title}
+                                    class="xl:w-3/12 lg:w-4/12 md:w-4/12 sm:w-6/12 w-full px-3 py-2 font-paragraph ">
+                                    <div class="flex flex-wrap bg-neutral-900 rounded-lg  w-full h-full">
+                                        <img alt={nft.title} src='public/jsonimage/nft-Crypto-Hobos-preview.jpg'
+                                            class="rounded-lg" />
+                                        <div class="overlay">
+                                            <div class="portfolio-item-meta p-2 items-center justify-center  ">
+                                                <h5 class='text-gray-400 text-sm'>Gaming</h5>
+                                                <p class='text-gray-200 text-sm'>KOGS</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div key={nft.title}
+                                    class="xl:w-3/12 lg:w-4/12 md:w-4/12 sm:w-6/12 w-full px-3 py-2 font-paragraph ">
+                                    <div class="flex flex-wrap bg-neutral-900 rounded-lg  w-full h-full">
+                                        <img alt={nft.title} src='public/jsonimage/nft-Infinites-AI-preview.jpg'
+                                            class="rounded-lg" />
+                                        <div class="overlay">
+                                            <div class="portfolio-item-meta p-2 items-center justify-center  ">
+                                                <h5 class='text-gray-400 text-sm'>Collectibles</h5>
+                                                <p class='text-gray-200 text-sm'>SupDucks</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div key={nft.title}
+                                    class="xl:w-3/12 lg:w-4/12 md:w-4/12 sm:w-6/12 w-full px-3 py-2 font-paragraph ">
+                                    <div class="flex flex-wrap bg-neutral-900 rounded-lg  w-full h-full">
+                                        <img alt={nft.title} src='public/jsonimage/nft-bulls-on-the-block-preview.jpg'
+                                            class="rounded-lg" />
+                                        <div class="overlay">
+                                            <div class="portfolio-item-meta p-2 items-center justify-center  ">
+                                                <h5 class='text-gray-400 text-sm'>Collectibles</h5>
+                                                <p class='text-gray-200 text-sm'>GOATz</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+
+
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+                <script>
+                    var sideBar = document.getElementById("mobile-nav");
+                    var openSidebar = document.getElementById("openSideBar");
+                    var closeSidebar = document.getElementById("closeSideBar");
+                    sideBar.style.transform = "translateX(-260px)";
+
+                    function sidebarHandler(flag) {
+                        if (flag) {
+                            sideBar.style.transform = "translateX(0px)";
+                            openSidebar.classList.add("hidden");
+                            closeSidebar.classList.remove("hidden");
+                        } else {
+                            sideBar.style.transform = "translateX(-260px)";
+                            closeSidebar.classList.add("hidden");
+                            openSidebar.classList.remove("hidden");
+                        }
+                    }
+                </script>
+            </dh-component>
+        </div>
+    </div>
+
+    <footer class="w-full bg-black  border-t border-gray-800 ">
+        <div class='max-w-6xl m-auto text-gray-800 flex flex-wrap justify-left lg:py-24 '>
+          <div class="lg:w-4/12 sm:w-12/12">         
+               <div class="text-xs uppercase text-gray-400 font-medium mb-6">
+                   Getting Started
+               </div> 
+               
+           </div>
+          <div class=" text-gray-800 flex flex-wrap justify-left w-8/12">       
+      
+              <div class="p-5 w-1/2 sm:w-4/12 md:w-4/12">
+              
+                  <div class="text-lg uppercase text-gray-300 font-medium mb-6">
+                     App quick links
+                  </div>
+      
+            
+                  <Link href="#">
+                     <a  class="my-3 lg:my-4 block text-gray-400 hover:text-gray-100 text-sm font-medium duration-600">
+                        Smart feed
+                     </a>
+                  </Link>
+                  <Link href="#">
+                     <a  class="my-3 lg:my-4 block text-gray-400 hover:text-gray-100 text-sm font-medium duration-600">
+                        Ranking
+                     </a>
+                  </Link>
+                  <Link href="#">
+                     <a  class="my-3 lg:my-4 block text-gray-400 hover:text-gray-100 text-sm font-medium duration-600">
+                       Project search
+                     </a>
+                  </Link>
+                  <Link href="#">
+                     <a  class="my-3 lg:my-4 block text-gray-400 hover:text-gray-100 text-sm font-medium duration-600">
+                        Feature request
+                     </a>
+                  </Link>
+                  <Link href="#">
+                     <a  class="my-3 lg:my-4 block text-gray-400 hover:text-gray-100 text-sm font-medium duration-600">
+                        NFT Drops
+                     </a>
+                  </Link>
+      
+              </div>
+      
+         
+              <div class="p-5 w-1/2 sm:w-4/12 md:w-4/12">
+        
+                  <div class="text-lg uppercase text-gray-300 font-medium mb-6">
+                      Misc
+                  </div>
+      
+      
+                  <Link href="#">
+                     <a class="my-3 lg:my-4 block text-gray-400 hover:text-gray-100 text-sm font-medium duration-600">
+                        Join NFT Newsletter
+                     </a>
+                  </Link>
+                  <Link href="#">
+                     <a class="my-3 lg:my-4 block text-gray-400 hover:text-gray-100 text-sm font-medium duration-600">
+                        Contact us
+                     </a>
+                  </Link>
+                  <Link href="#">
+                     <a class="my-3 lg:my-4 block text-gray-400 hover:text-gray-100 text-sm font-medium duration-600">
+                        Join our team
+                     </a>
+                  </Link>
+                  <Link href="#">
+                     <a class="my-3 lg:my-4 block text-gray-400 hover:text-gray-100 text-sm font-medium duration-600">
+                        Privacy policy
+                     </a>
+                  </Link>   
+                  <Link href="#">
+                     <a class="my-3 lg:my-4 block text-gray-400 hover:text-gray-100 text-sm font-medium duration-600">
+                        Partnerships
+                     </a>
+                  </Link>        
+                 
+              </div>
+      
+      
+              <div class="p-5 w-1/2 sm:w-4/12 md:w-4/12">
+          
+                  <div class="text-lg uppercase text-gray-200 font-medium mb-6">
+                      Ayzd Family
+                  </div>
+      
+                  <Link href="#">
+                     <a  class="my-3 lg:my-4 block text-gray-400 hover:text-gray-100 text-sm font-medium duration-600">
+                        NFT Merch
+                     </a>
+                  </Link>
+                  <Link href="#">
+                     <a  class="my-3 lg:my-4 block text-gray-400 hover:text-gray-100 text-sm font-medium duration-600">
+                        Ayzd For Artists
+                     </a>
+                  </Link>
+                  <Link href="#">
+                     <a  class="my-3 lg:my-4 block text-gray-400 hover:text-gray-100 text-sm font-medium duration-600">
+                        NFT Resources
+                     </a>
+                  </Link>
+                  <Link href="#">
+                     <a  class="my-3 lg:my-4 block text-gray-400 hover:text-gray-100 text-sm font-medium duration-600">
+                        NFT Meditations
+                     </a>
+                  </Link>           
+              
+              </div>
+          </div>
+        </div>    
+       
+      
+          <div class="pt-2 border-t border-gray-800">
+              <div class="flex pb-5 px-3 mx-auto py-3 
+                    text-gray-400 text-sm 
+                  flex-col md:flex-row max-w-6xl">
+                  <div class="mt-2">
+                      © Copyright 1998-year. All Rights Reserved.
+                  </div>
+                
+                  <div class="md:flex-auto md:flex-row-reverse mt-2 flex-row flex">               
+                      
+                      <div class=' '>
+                        <a href="#" class="w-6 mx-2 p-3 bg-black hover:border hover:border-gray-700 rounded-lg ">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                      </div>
+      
+                     <div>
+                     <a href="#" class="w-6 mx-2 p-3 bg-black hover:border hover:border-gray-700 rounded-lg ">
+                        <i class="fa-brands fa-twitter"></i>
+                      </a>
+                     </div>
+                    
+                    <div>
+                     <a href="#" class="w-6 mx-2 p-3 bg-black hover:border hover:border-gray-700 rounded-lg ">
+                        <i class="fa-brands fa-youtube"></i>
+                        </a>
+                    </div>
+                     <div>
+                     <a href="#" class="w-6 mx-2 p-3 bg-black hover:border hover:border-gray-700 rounded-lg ">
+                        <i class="fa-brands fa-linkedin"></i>
+                      </a>
+                     </div>
+                     <div>
+                     <a href="#" class="w-6 mx-2 p-3 bg-black hover:border hover:border-gray-700 rounded-lg ">
+                        <i class="fa-brands fa-instagram-square"></i>
+                      </a>
+                     </div>
+                  </div>
+              </div>
+          </div>
+    </footer>
+
+
+    <!-- side nav -->
+    <script src="js/sidenav.js"></script>
+
+</body>
+
+</html>
