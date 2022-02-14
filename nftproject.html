@@ -14,11 +14,13 @@
     <script src="https://unpkg.com/@mui/material@latest/umd/material-ui.development.js"></script>
     <!-- HEADER -->
     <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+
     <!-- font awesome links -->
     <!-- font awesome -->
     <link href="fontawesome6/css/fontawesome.css" rel="stylesheet">
     <link href="fontawesome6/css/brands.css" rel="stylesheet">
     <link href="fontawesome6/css/solid.css" rel="stylesheet">
+
 
     <title> NFT Project</title>
 </head>
@@ -29,7 +31,7 @@
             <div x-data="{ open: false }"
                 class="flex flex-col max-w-screen-xl px-4 mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-8">
                 <div class="p-4 flex flex-row items-center justify-between">
-                    <a href="#"
+                    <a href="index.html"
                         class="text-lg font-semibold tracking-widest text-gray-200 uppercase rounded-lg  focus:outline-none focus:shadow-outline">Project-1</a>
                     <button class="md:hidden rounded-lg focus:outline-none focus:shadow-outline" @click="open = !open">
                         <svg fill="currentColor" viewBox="0 0 20 20" class="w-6 h-6">
@@ -41,15 +43,16 @@
                                 clip-rule="evenodd"></path>
                         </svg>
                     </button>
+
                 </div>
                 <nav :class="{'flex': open, 'hidden': !open}"
                     class="flex-col flex-grow pb-4 md:pb-0 hidden md:flex  md:flex-row">
                     <a class="px-4 py-2 mt-2 text-sm font-semibold text-gray-600     dark-mode:focus:text-white dark-mode:hover:text-white dark-mode:text-gray-200 md:mt-0 hover:text-gray-900 focus:text-gray-900 focus:outline-none focus:shadow-outline"
-                        href="#">How it Works</a>
+                        href="#deep">How it Works</a>
                     <a class="px-4 py-2 mt-2 text-sm font-semibold  dark-mode:focus:text-white   md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900  focus:outline-none focus:shadow-outline"
-                        href="#"><i class="fa-light fa-folder"></i> NFT Project</a>
+                        href="/nftproject.html"><i class="fa-light fa-folder"></i> NFT Project</a>
                     <a class="px-4 py-2 mt-2 text-sm font-semibold  dark-mode:focus:text-white   md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900  focus:outline-none focus:shadow-outline"
-                        href="#">Smart Feed</a>
+                        href="#smartfeed">Smart Feed</a>
                     <a class="px-4 py-2 mt-2 text-sm font-semibold  dark-mode:focus:text-white   md:mt-0 md:ml-4 hover:text-gray-900 focus:text-gray-900  focus:outline-none focus:shadow-outline"
                         href="#">Discover project</a>
                 </nav>
@@ -60,21 +63,21 @@
         </div>
     </header>
 
-    <div class="w-full bg-black xl:w-8/12 lg:12/12 w-12/12 mx-auto">
-        <div class="xl:w-full lg:w-10/12 w-12/12 ml-auto  h-full relative  pt-16">
+    <div class="w-full bg-black">
+        <div class="xl:w-8/12 lg:w-11/12 w-11/12  mx-auto  h-full relative bg-black pt-16">
             <div class=" h-10   w-full">
                 <div class=" relative  w-full border-b border-gray-700">
-                    <input class=" py-2  bg-black text-white w-full text-sm    pl-10 py-2" type="text"
+                    <input class=" py-2 bg-black text-white w-full text-sm    pl-10 py-2" type="text"
                         placeholder="Search" />
                 </div>
             </div>
             <dh-component class=" ">
-                <div class="flex flex-no-wrap border-t border-gray-600">
+                <div class="flex flex-no-wrap border-t border-gray-700">
                     <!-- Sidebar starts -->
                     <!-- Remove class [ hidden ] and replace [ sm:flex ] with [ flex ] -->
                     <!--- more free and premium Tailwind CSS components at https://tailwinduikit.com/ --->
-                    <div
-                        class="min-h-screen border-r border-gray-700 w-2/12  text-white  md:shadow min-h-full flex-col justify-between hidden sm:block sm:flex">
+                    <div style="min-height: 716px"
+                        class="border-r border-gray-700 w-3/12  text-white  md:shadow md:h-full flex-col justify-between hidden sm:block sm:flex">
                         <div class=" bg-black">
                             <div class="h-16 w-full  flex items-center border-b border-gray-700">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="ml-4 icon icon-tabler icon-tabler-stack"
@@ -124,10 +127,9 @@
                             </ul>
 
                             <div class="h-16 w-full  flex items-center border-b border-t border-gray-700">
-                                <svg xmlns="http://www.w3.org/2000/svg"
-                                    class="ml-4 icon icon-tabler icon-tabler-compass" width="18" height="18"
-                                    viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none"
-                                    stroke-linecap="round" stroke-linejoin="round">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="ml-4 icon icon-tabler icon-tabler-compass"
+                                    width="18" height="18" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                    fill="none" stroke-linecap="round" stroke-linejoin="round">
                                     <path stroke="none" d="M0 0h24v24H0z"></path>
                                     <polyline points="8 16 10 10 16 8 14 14 8 16"></polyline>
                                     <circle cx="12" cy="12" r="9"></circle>
@@ -177,17 +179,19 @@
                                     </a>
                                 </li>
                             </ul>
+
                         </div>
+
                     </div>
                     <!-- ffffffffffff -->
-                    <div class="bg-black w-60 z-40 fixed shadow md:h-full flex-col justify-between sm:hidden transition duration-150 ease-in-out"
+                    <div class="bg-black w-64 z-40 fixed shadow md:h-full flex-col justify-between sm:hidden transition duration-150 ease-in-out"
                         id="mobile-nav">
                         <button aria-label="toggle sidebar" id="openSideBar"
-                            class="h-10 w-10 bg-gray-800 absolute right-0 mt-16  flex items-center shadow rounded-tr rounded-br justify-center cursor-pointer focus:outline-none focus:ring-2 focus:ring-offset-2 rounded focus:ring-gray-800"
+                            class="h-10 w-10 bg-gray-800 absolute right-0 mt-20 -mr-10 flex items-center shadow rounded-tr rounded-br justify-center cursor-pointer focus:outline-none focus:ring-2 focus:ring-offset-2 rounded focus:ring-gray-800"
                             onclick="sidebarHandler(true)">
                             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-adjustments"
-                                width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#FFFFFF"
-                                fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#FFFFFF" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round">
                                 <path stroke="none" d="M0 0h24v24H0z" />
                                 <circle cx="6" cy="10" r="2" />
                                 <line x1="6" y1="4" x2="6" y2="8" />
@@ -257,12 +261,12 @@
                                         <span class="text-sm ml-2">Chain</span>
                                     </a>
                                 </li>
+
                             </ul>
                             <div class="h-16 w-full  flex items-center border-b border-t border-gray-700">
-                                <svg xmlns="http://www.w3.org/2000/svg"
-                                    class="ml-4 icon icon-tabler icon-tabler-compass" width="18" height="18"
-                                    viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none"
-                                    stroke-linecap="round" stroke-linejoin="round">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="ml-4 icon icon-tabler icon-tabler-compass"
+                                    width="18" height="18" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+                                    fill="none" stroke-linecap="round" stroke-linejoin="round">
                                     <path stroke="none" d="M0 0h24v24H0z"></path>
                                     <polyline points="8 16 10 10 16 8 14 14 8 16"></polyline>
                                     <circle cx="12" cy="12" r="9"></circle>
@@ -317,69 +321,10 @@
                     </div>
                     <!-- Sidebar ends -->
                     <!-- Remove class [ h-64 ] when adding a card block -->
-                    <div class="ml-auto  sm:w-9/12  min-h-screen w-full flex  overflow-hidden">
+                    <div class="ml-auto  sm:w-9/12 w-full flex  overflow-hidden">
 
                         <div class='bg-black flex-1  text-2xl  text-white '>
                             <div class='flex flex-wrap lg:w-12/12 md:w-12/12 sm:w-12/12'>
-
-
-
-
-                                <div key={nft.title}
-                                    class="xl:w-3/12 lg:w-4/12 md:w-4/12 sm:w-6/12 w-full px-3 py-2 font-paragraph ">
-                                    <div class="flex flex-wrap bg-neutral-900 rounded-lg  w-full h-full">
-                                        <img alt={nft.title} src='public/jsonimage/B_46rb05_400x400.jpeg'
-                                            class="rounded-lg" />
-                                        <div class="overlay">
-                                            <div class="portfolio-item-meta p-2 items-center justify-center  ">
-                                                <h5 class='text-gray-400 text-sm'>Metaverse</h5>
-                                                <p class='text-gray-200 text-sm'>Decentraland</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div key={nft.title}
-                                    class="xl:w-3/12 lg:w-4/12 md:w-4/12 sm:w-6/12 w-full px-3 py-2 font-paragraph ">
-                                    <div class="flex flex-wrap bg-neutral-900 rounded-lg  w-full h-full">
-                                        <img alt={nft.title} src='public/jsonimage/nft-Brainiac-Society-preview.jpg'
-                                            class="rounded-lg" />
-                                        <div class="overlay">
-                                            <div class="portfolio-item-meta p-2 items-center justify-center  ">
-                                                <h5 class='text-gray-400 text-sm'>Metaverse</h5>
-                                                <p class='text-gray-200 text-sm'>Decentraland</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div key={nft.title}
-                                    class="xl:w-3/12 lg:w-4/12 md:w-4/12 sm:w-6/12 w-full px-3 py-2 font-paragraph ">
-                                    <div class="flex flex-wrap bg-neutral-900 rounded-lg  w-full h-full">
-                                        <img alt={nft.title} src='public/jsonimage/nft-Bitverse-Comics-preview.jpg'
-                                            class="rounded-lg" />
-                                        <div class="overlay">
-                                            <div class="portfolio-item-meta p-2 items-center justify-center  ">
-                                                <h5 class='text-gray-400 text-sm'>Metaverse</h5>
-                                                <p class='text-gray-200 text-sm'>Decentraland</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div key={nft.title}
-                                    class="xl:w-3/12 lg:w-4/12 md:w-4/12 sm:w-6/12 w-full px-3 py-2 font-paragraph ">
-                                    <div class="flex flex-wrap bg-neutral-900 rounded-lg  w-full h-full">
-                                        <img alt={nft.title} src='public/jsonimage/DCI4ZNFI_400x400.jpeg'
-                                            class="rounded-lg" />
-                                        <div class="overlay">
-                                            <div class="portfolio-item-meta p-2 items-center justify-center  ">
-                                                <h5 class='text-gray-400 text-sm'>Metaverse</h5>
-                                                <p class='text-gray-200 text-sm'>Decentraland</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
 
                                 <div key={nft.title}
                                     class="xl:w-3/12 lg:w-4/12 md:w-4/12 sm:w-6/12 w-full px-3 py-2 font-paragraph ">
@@ -398,12 +343,25 @@
                                 <div key={nft.title}
                                     class="xl:w-3/12 lg:w-4/12 md:w-4/12 sm:w-6/12 w-full px-3 py-2 font-paragraph ">
                                     <div class="flex flex-wrap bg-neutral-900 rounded-lg  w-full h-full">
-                                        <img alt={nft.title} src='public/jsonimage/nft-Brainiac-Society-preview.jpg'
+                                        <img alt={nft.title} src='public/jsonimage/nft-Crypto-Hobos-preview.jpg'
                                             class="rounded-lg" />
                                         <div class="overlay">
                                             <div class="portfolio-item-meta p-2 items-center justify-center  ">
-                                                <h5 class='text-gray-400 text-sm'>Metaverse</h5>
-                                                <p class='text-gray-200 text-sm'>Decentraland</p>
+                                                <h5 class='text-gray-400 text-sm'>Gaming</h5>
+                                                <p class='text-gray-200 text-sm'>KOGS</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div key={nft.title}
+                                    class="xl:w-3/12 lg:w-4/12 md:w-4/12 sm:w-6/12 w-full px-3 py-2 font-paragraph ">
+                                    <div class="flex flex-wrap bg-neutral-900 rounded-lg  w-full h-full">
+                                        <img alt={nft.title} src='public/jsonimage/nft-Infinites-AI-preview.jpg'
+                                            class="rounded-lg" />
+                                        <div class="overlay">
+                                            <div class="portfolio-item-meta p-2 items-center justify-center  ">
+                                                <h5 class='text-gray-400 text-sm'>Collectibles</h5>
+                                                <p class='text-gray-200 text-sm'>SupDucks</p>
                                             </div>
                                         </div>
                                     </div>
@@ -412,142 +370,16 @@
                                 <div key={nft.title}
                                     class="xl:w-3/12 lg:w-4/12 md:w-4/12 sm:w-6/12 w-full px-3 py-2 font-paragraph ">
                                     <div class="flex flex-wrap bg-neutral-900 rounded-lg  w-full h-full">
-                                        <img alt={nft.title} src='public/jsonimage/nft-Marnotaur-preview.jpg'
+                                        <img alt={nft.title} src='public/jsonimage/nft-bulls-on-the-block-preview.jpg'
                                             class="rounded-lg" />
                                         <div class="overlay">
                                             <div class="portfolio-item-meta p-2 items-center justify-center  ">
-                                                <h5 class='text-gray-400 text-sm'>Metaverse</h5>
-                                                <p class='text-gray-200 text-sm'>Decentraland</p>
+                                                <h5 class='text-gray-400 text-sm'>Collectibles</h5>
+                                                <p class='text-gray-200 text-sm'>GOATz</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-
-                                <div key={nft.title}
-                                    class="xl:w-3/12 lg:w-4/12 md:w-4/12 sm:w-6/12 w-full px-3 py-2 font-paragraph ">
-                                    <div class="flex flex-wrap bg-neutral-900 rounded-lg  w-full h-full">
-                                        <img alt={nft.title} src='public/jsonimage/nft-f1-deltatime-preview.jpg'
-                                            class="rounded-lg" />
-                                        <div class="overlay">
-                                            <div class="portfolio-item-meta p-2 items-center justify-center  ">
-                                                <h5 class='text-gray-400 text-sm'>Metaverse</h5>
-                                                <p class='text-gray-200 text-sm'>Decentraland</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div key={nft.title}
-                                    class="xl:w-3/12 lg:w-4/12 md:w-4/12 sm:w-6/12 w-full px-3 py-2 font-paragraph ">
-                                    <div class="flex flex-wrap bg-neutral-900 rounded-lg  w-full h-full">
-                                        <img alt={nft.title} src='public/jsonimage/nft-GEVOLs-preview.jpg'
-                                            class="rounded-lg" />
-                                        <div class="overlay">
-                                            <div class="portfolio-item-meta p-2 items-center justify-center  ">
-                                                <h5 class='text-gray-400 text-sm'>Metaverse</h5>
-                                                <p class='text-gray-200 text-sm'>Decentraland</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div key={nft.title}
-                                    class="xl:w-3/12 lg:w-4/12 md:w-4/12 sm:w-6/12 w-full px-3 py-2 font-paragraph ">
-                                    <div class="flex flex-wrap bg-neutral-900 rounded-lg  w-full h-full">
-                                        <img alt={nft.title} src='public/jsonimage/nft-Hall-Of-Fame-Goat-Lodge-preview.jpg'
-                                            class="rounded-lg" />
-                                        <div class="overlay">
-                                            <div class="portfolio-item-meta p-2 items-center justify-center  ">
-                                                <h5 class='text-gray-400 text-sm'>Metaverse</h5>
-                                                <p class='text-gray-200 text-sm'>Decentraland</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div key={nft.title}
-                                    class="xl:w-3/12 lg:w-4/12 md:w-4/12 sm:w-6/12 w-full px-3 py-2 font-paragraph ">
-                                    <div class="flex flex-wrap bg-neutral-900 rounded-lg  w-full h-full">
-                                        <img alt={nft.title} src='public/jsonimage/nft-Quadrums-preview.jpg'
-                                            class="rounded-lg" />
-                                        <div class="overlay">
-                                            <div class="portfolio-item-meta p-2 items-center justify-center  ">
-                                                <h5 class='text-gray-400 text-sm'>Metaverse</h5>
-                                                <p class='text-gray-200 text-sm'>Decentraland</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div key={nft.title}
-                                    class="xl:w-3/12 lg:w-4/12 md:w-4/12 sm:w-6/12 w-full px-3 py-2 font-paragraph ">
-                                    <div class="flex flex-wrap bg-neutral-900 rounded-lg  w-full h-full">
-                                        <img alt={nft.title} src='public/jsonimage/nft-CyberKongz-preview.jpg'
-                                            class="rounded-lg" />
-                                        <div class="overlay">
-                                            <div class="portfolio-item-meta p-2 items-center justify-center  ">
-                                                <h5 class='text-gray-400 text-sm'>Metaverse</h5>
-                                                <p class='text-gray-200 text-sm'>Decentraland</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div key={nft.title}
-                                    class="xl:w-3/12 lg:w-4/12 md:w-4/12 sm:w-6/12 w-full px-3 py-2 font-paragraph ">
-                                    <div class="flex flex-wrap bg-neutral-900 rounded-lg  w-full h-full">
-                                        <img alt={nft.title} src='public/jsonimage/nft-Chenduz_s-Luna-Park-preview.jpg'
-                                            class="rounded-lg" />
-                                        <div class="overlay">
-                                            <div class="portfolio-item-meta p-2 items-center justify-center  ">
-                                                <h5 class='text-gray-400 text-sm'>Metaverse</h5>
-                                                <p class='text-gray-200 text-sm'>Decentraland</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div key={nft.title}
-                                    class="xl:w-3/12 lg:w-4/12 md:w-4/12 sm:w-6/12 w-full px-3 py-2 font-paragraph ">
-                                    <div class="flex flex-wrap bg-neutral-900 rounded-lg  w-full h-full">
-                                        <img alt={nft.title} src='public/jsonimage/nft-Galaxy-Eggs-preview.jpg'
-                                            class="rounded-lg" />
-                                        <div class="overlay">
-                                            <div class="portfolio-item-meta p-2 items-center justify-center  ">
-                                                <h5 class='text-gray-400 text-sm'>Metaverse</h5>
-                                                <p class='text-gray-200 text-sm'>Decentraland</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div key={nft.title}
-                                    class="xl:w-3/12 lg:w-4/12 md:w-4/12 sm:w-6/12 w-full px-3 py-2 font-paragraph ">
-                                    <div class="flex flex-wrap bg-neutral-900 rounded-lg  w-full h-full">
-                                        <img alt={nft.title} src='public/jsonimage/nft-Degenerate-Ape-Academy-preview.jpg'
-                                            class="rounded-lg" />
-                                        <div class="overlay">
-                                            <div class="portfolio-item-meta p-2 items-center justify-center  ">
-                                                <h5 class='text-gray-400 text-sm'>Metaverse</h5>
-                                                <p class='text-gray-200 text-sm'>Decentraland</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div key={nft.title}
-                                    class="xl:w-3/12 lg:w-4/12 md:w-4/12 sm:w-6/12 w-full px-3 py-2 font-paragraph ">
-                                    <div class="flex flex-wrap bg-neutral-900 rounded-lg  w-full h-full">
-                                        <img alt={nft.title} src='public/jsonimage/nft-Galaxy-Eggs-preview.jpg'
-                                            class="rounded-lg" />
-                                        <div class="overlay">
-                                            <div class="portfolio-item-meta p-2 items-center justify-center  ">
-                                                <h5 class='text-gray-400 text-sm'>Metaverse</h5>
-                                                <p class='text-gray-200 text-sm'>Decentraland</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
                                 <div key={nft.title}
                                     class="xl:w-3/12 lg:w-4/12 md:w-4/12 sm:w-6/12 w-full px-3 py-2 font-paragraph ">
                                     <div class="flex flex-wrap bg-neutral-900 rounded-lg  w-full h-full">
@@ -555,8 +387,8 @@
                                             class="rounded-lg" />
                                         <div class="overlay">
                                             <div class="portfolio-item-meta p-2 items-center justify-center  ">
-                                                <h5 class='text-gray-400 text-sm'>Metaverse</h5>
-                                                <p class='text-gray-200 text-sm'>Decentraland</p>
+                                                <h5 class='text-gray-400 text-sm'>Collectibles</h5>
+                                                <p class='text-gray-200 text-sm'>Godzilla Topps NFT</p>
                                             </div>
                                         </div>
                                     </div>
@@ -565,7 +397,47 @@
                                 <div key={nft.title}
                                     class="xl:w-3/12 lg:w-4/12 md:w-4/12 sm:w-6/12 w-full px-3 py-2 font-paragraph ">
                                     <div class="flex flex-wrap bg-neutral-900 rounded-lg  w-full h-full">
-                                        <img alt={nft.title} src='public/jsonimage/nft-LlamaPalooza-preview.jpg'
+                                        <img alt={nft.title} src='public/jsonimage/nft-Degenz-preview.jpg'
+                                            class="rounded-lg" />
+                                        <div class="overlay">
+                                            <div class="portfolio-item-meta p-2 items-center justify-center  ">
+                                                <h5 class='text-gray-400 text-sm'>Trading Card</h5>
+                                                <p class='text-gray-200 text-sm'>Parallel</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div key={nft.title}
+                                    class="xl:w-3/12 lg:w-4/12 md:w-4/12 sm:w-6/12 w-full px-3 py-2 font-paragraph ">
+                                    <div class="flex flex-wrap bg-neutral-900 rounded-lg  w-full h-full">
+                                        <img alt={nft.title} src='public/jsonimage/nft-solanart-preview.jpg'
+                                            class="rounded-lg" />
+                                        <div class="overlay">
+                                            <div class="portfolio-item-meta p-2 items-center justify-center  ">
+                                                <h5 class='text-gray-400 text-sm'>Art</h5>
+                                                <p class='text-gray-200 text-sm'>Inertial Moment</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div key={nft.title}
+                                    class="xl:w-3/12 lg:w-4/12 md:w-4/12 sm:w-6/12 w-full px-3 py-2 font-paragraph ">
+                                    <div class="flex flex-wrap bg-neutral-900 rounded-lg  w-full h-full">
+                                        <img alt={nft.title} src='public/jsonimage/nft-NonFungibleHeroes-preview.jpg'
+                                            class="rounded-lg" />
+                                        <div class="overlay">
+                                            <div class="portfolio-item-meta p-2 items-center justify-center  ">
+                                                <h5 class='text-gray-400 text-sm'>Collectibles</h5>
+                                                <p class='text-gray-200 text-sm'>APE DAO REMIX</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div key={nft.title}
+                                    class="xl:w-3/12 lg:w-4/12 md:w-4/12 sm:w-6/12 w-full px-3 py-2 font-paragraph ">
+                                    <div class="flex flex-wrap bg-neutral-900 rounded-lg  w-full h-full">
+                                        <img alt={nft.title} src='public/jsonimage/nft-Banana-Solana-preview.jpg'
                                             class="rounded-lg" />
                                         <div class="overlay">
                                             <div class="portfolio-item-meta p-2 items-center justify-center  ">
@@ -579,12 +451,25 @@
                                 <div key={nft.title}
                                     class="xl:w-3/12 lg:w-4/12 md:w-4/12 sm:w-6/12 w-full px-3 py-2 font-paragraph ">
                                     <div class="flex flex-wrap bg-neutral-900 rounded-lg  w-full h-full">
-                                        <img alt={nft.title} src='public/jsonimage/nft-Oceans-Inc-preview.jpg'
+                                        <img alt={nft.title} src='public/jsonimage/nft-Crypto-Hobos-preview.jpg'
                                             class="rounded-lg" />
                                         <div class="overlay">
                                             <div class="portfolio-item-meta p-2 items-center justify-center  ">
-                                                <h5 class='text-gray-400 text-sm'>Metaverse</h5>
-                                                <p class='text-gray-200 text-sm'>Decentraland</p>
+                                                <h5 class='text-gray-400 text-sm'>Gaming</h5>
+                                                <p class='text-gray-200 text-sm'>KOGS</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div key={nft.title}
+                                    class="xl:w-3/12 lg:w-4/12 md:w-4/12 sm:w-6/12 w-full px-3 py-2 font-paragraph ">
+                                    <div class="flex flex-wrap bg-neutral-900 rounded-lg  w-full h-full">
+                                        <img alt={nft.title} src='public/jsonimage/nft-Infinites-AI-preview.jpg'
+                                            class="rounded-lg" />
+                                        <div class="overlay">
+                                            <div class="portfolio-item-meta p-2 items-center justify-center  ">
+                                                <h5 class='text-gray-400 text-sm'>Collectibles</h5>
+                                                <p class='text-gray-200 text-sm'>SupDucks</p>
                                             </div>
                                         </div>
                                     </div>
@@ -593,16 +478,19 @@
                                 <div key={nft.title}
                                     class="xl:w-3/12 lg:w-4/12 md:w-4/12 sm:w-6/12 w-full px-3 py-2 font-paragraph ">
                                     <div class="flex flex-wrap bg-neutral-900 rounded-lg  w-full h-full">
-                                        <img alt={nft.title} src='public/jsonimage/nft-mega-crypto-polis-preview.jpg'
+                                        <img alt={nft.title} src='public/jsonimage/nft-bulls-on-the-block-preview.jpg'
                                             class="rounded-lg" />
                                         <div class="overlay">
                                             <div class="portfolio-item-meta p-2 items-center justify-center  ">
-                                                <h5 class='text-gray-400 text-sm'>Metaverse</h5>
-                                                <p class='text-gray-200 text-sm'>Decentraland</p>
+                                                <h5 class='text-gray-400 text-sm'>Collectibles</h5>
+                                                <p class='text-gray-200 text-sm'>GOATz</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
+
+
+
 
 
                             </div>
@@ -632,8 +520,6 @@
             </dh-component>
         </div>
     </div>
-
-
 
     <footer class="w-full bg-black  border-t border-gray-800 ">
         <div class='max-w-6xl m-auto text-gray-800 flex flex-wrap justify-left lg:py-24 '>
@@ -790,7 +676,6 @@
               </div>
           </div>
     </footer>
-
 
 
     <!-- side nav -->
